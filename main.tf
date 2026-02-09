@@ -10,6 +10,6 @@ resource "aws_instance" "ec2-instance" {
   vpc_security_group_ids = [ "sg-0255e9a92d037cd32" ]
 }
 
-output "ec2-output" {
+output "ec2-outputs" {
   value = aws_instance.ec2-instance.arn
 }
