@@ -1,6 +1,9 @@
 name: aws deployment
 on:
   push
+permissions:
+    id-token: write
+    contents: read
 jobs:
   deploy_resource:
     runs-on: ubuntu-latest
