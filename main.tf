@@ -11,5 +11,5 @@ resource "aws_instance" "ec2-instance" {
 }
 
 output "ec2-outputs" {
-  value = aws_instance.ec2-instance.arn
+  value = aws_instance.ec2-instance
 }
